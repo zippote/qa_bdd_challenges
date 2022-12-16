@@ -54,6 +54,6 @@ Currently, the program return zeros for vowels and consonants in this case.
 - Prerequisites: maven installed, jvm installed, all dependencies installed.
 - All Unit tests and BDD tests can be run as follows:
   - Open the cmd or terminal 
-  - cd into the project directory and use the maven to execute all tests: ```mvn clean test```
+  - cd into the project directory and use maven to execute all tests: ```mvn clean test```
 
 

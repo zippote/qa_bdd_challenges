@@ -18,8 +18,8 @@
 - Assumption: Strings will be entered in latin alphabet
 - Assumption: Strings cannot contain special characters/numbers
 - Assumption: Strings cannot contain empty spaces.
-- Assumption: It will be possible to verify strings with no vowels, in this case we should we display zero
-- Assumption: It will be possible to verify strings with no consonants, in this case should we display zero
+- Assumption: It will be possible to verify strings with no vowels, in this case we should display zero
+- Assumption: It will be possible to verify strings with no consonants, in this case we should display zero
 - Question: Will we have a min/max num of characters accepted for strings?
 
 ## TEST COVERAGE AND SCENARIOS

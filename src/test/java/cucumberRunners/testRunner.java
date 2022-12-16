@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         monochrome = true,
         plugin = {"pretty", "json:target/JSONReports/BDD_Report.json"}
 )
-public class vowelsTestRunner {
+public class testRunner {
 }

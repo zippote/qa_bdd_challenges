@@ -3,10 +3,14 @@ package com.exercise;
 public class CountResult {
     private String word;
     private Integer vowelCount;
+    private Integer consonantCount;
 
-    public CountResult(String word, Integer vowelCount) {
+
+
+    public CountResult(String word, Integer vowelCount, Integer consonantCount) {
         this.word = word;
         this.vowelCount = vowelCount;
+        this.consonantCount = consonantCount;
     }
 
     public Integer getVowelCount() {
@@ -15,6 +19,14 @@ public class CountResult {
 
     public void setVowelCount(Integer vowelCount) {
         this.vowelCount = vowelCount;
+    }
+
+    public Integer getConsonantCount() {
+        return consonantCount;
+    }
+
+    public void setConsonantCount(Integer consonantCount) {
+        this.consonantCount = consonantCount;
     }
 
     public String getWord() {
@@ -30,6 +42,7 @@ public class CountResult {
         return "CountResult{" +
                 "word='" + word + '\'' +
                 ", vowelCount=" + vowelCount +
+                ", consonantCount=" + consonantCount +
                 '}';
     }
 }

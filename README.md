@@ -33,7 +33,7 @@
 - Verify a list of strings with non-latin characters. >> inputListWithNonLatinAlphabetWords
 - Verify a list of strings with more than 4 inputs. >> inputMoreThanFourWords 
 - Verify an empty list of strings. >> inputEmptyList
-- -Count and display vowels and consonants in a list of words - vowelsCounterTest
+- Count and display vowels and consonants in a list of words - vowelsCounterTest
 
 ## Bugs
 - Strings with uppercase vowels, ie: names, cities. Vowels are not counted when uppercased.

@@ -18,6 +18,15 @@ class VowelCounterTest {
         List<String> expectedList = Arrays.asList("CountResult{word='bmw', vowelCount=0, consonantCount=3}");
         Assertions.assertEquals(expectedList.toString(), (counter.getVowelListWithCount(new String[]{"bmw"})).toString());
     }
+
+    //    the following is a failing test
+    @Test
+    void inputWordWithUppercaseVowels(){
+        VowelCounter counter = new VowelCounter();
+        List<String> expectedList = Arrays.asList("CountResult{word='Alvaro', vowelCount=3, consonantCount=3}");
+        Assertions.assertEquals(expectedList.toString(), (counter.getVowelListWithCount(new String[]{"Alvaro"})).toString());
+    }
+
     @Test
     void inputWordWithZeroConsonants(){
         VowelCounter counter = new VowelCounter();
@@ -25,6 +34,12 @@ class VowelCounterTest {
         Assertions.assertEquals(expectedList.toString(), (counter.getVowelListWithCount(new String[]{"ie"})).toString());
     }
 
+    @Test
+    void inputListWithNonLatinAlphabetWords(){
+        VowelCounter counter = new VowelCounter();
+        List<String> expectedList = Arrays.asList("CountResult{word='дом', vowelCount=0, consonantCount=0}");
+        Assertions.assertEquals(expectedList.toString(), (counter.getVowelListWithCount(new String[]{"дом"})).toString());
+    }
     @Test
     void inputMoreThanFourWords(){
         VowelCounter counter = new VowelCounter();

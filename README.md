@@ -45,7 +45,6 @@ Currently, the program return zeros for vowels and consonants in this case.
 (unit test written for this inputListWithNonLatinAlphabetWords)
 
 ## Notes
-- CountResult class Getters and Setters will not be covered by unit tests.
 - html report is located under src/test/reports
 
 <img src="src/main/resources/report_screenshot.png" style="width:500px;"/>

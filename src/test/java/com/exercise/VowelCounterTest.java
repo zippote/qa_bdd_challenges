@@ -26,6 +26,7 @@ class VowelCounterTest {
         Assertions.assertEquals(expected, (counter.getVowelListWithCount(new String[]{"Alvaro"})).toString());
     }
 
+    //    the following is a failing test
     @Test
     void inputWordWithUppercaseConsonants(){
         VowelCounter counter = new VowelCounter();
